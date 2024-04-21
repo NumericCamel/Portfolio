@@ -11,6 +11,7 @@ This portfolio is designed to exhibit my capabilities in data science through va
 Tools Used: Python, Scikit-Learn, Pandas, Matplotlib.
 **Key Achievements:**
 Achieved 95% accuracy using a Random Forest Classifier.
+
 Implemented feature engineering techniques to enhance model performance.
 Repository Link: Predicting Heart Issues
 Predicting Crypto Prices

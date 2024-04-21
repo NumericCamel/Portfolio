@@ -13,7 +13,9 @@ Tools Used: Python, Scikit-Learn, Pandas, Matplotlib.
 Achieved 95% accuracy using a Random Forest Classifier.
 
 Implemented feature engineering techniques to enhance model performance.
+
 Repository Link: Predicting Heart Issues
+
 Predicting Crypto Prices
 **Objective:** Create models to predict cryptocurrency prices using historical price data and sentiment analysis from social media.
 **Tools Used:** Python, TensorFlow, Keras, NLTK.

@@ -1,0 +1,33 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label=<tenure &le; 16.5<br/>gini = 0.39<br/>samples = 7032<br/>value = [5163, 1869]<br/>class = No>, fillcolor="#eeaf81"] ;
+1 [label=<InternetService_Fiber optic &le; 0.5<br/>gini = 0.497<br/>samples = 2539<br/>value = [1375, 1164]<br/>class = No>, fillcolor="#fbece1"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label=<tenure &le; 3.5<br/>gini = 0.414<br/>samples = 1451<br/>value = [1027.0, 424.0]<br/>class = No>, fillcolor="#f0b58b"] ;
+1 -> 2 ;
+3 [label=<gini = 0.49<br/>samples = 617<br/>value = [353, 264]<br/>class = No>, fillcolor="#f8dfcd"] ;
+2 -> 3 ;
+4 [label=<gini = 0.31<br/>samples = 834<br/>value = [674, 160]<br/>class = No>, fillcolor="#eb9f68"] ;
+2 -> 4 ;
+5 [label=<tenure &le; 1.5<br/>gini = 0.435<br/>samples = 1088<br/>value = [348, 740]<br/>class = Yes>, fillcolor="#96cbf1"] ;
+1 -> 5 ;
+6 [label=<gini = 0.235<br/>samples = 235<br/>value = [32, 203]<br/>class = Yes>, fillcolor="#58ace9"] ;
+5 -> 6 ;
+7 [label=<gini = 0.466<br/>samples = 853<br/>value = [316, 537]<br/>class = Yes>, fillcolor="#aed7f4"] ;
+5 -> 7 ;
+8 [label=<InternetService_Fiber optic &le; 0.5<br/>gini = 0.265<br/>samples = 4493<br/>value = [3788, 705]<br/>class = No>, fillcolor="#ea985e"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label=<Contract_Two year &le; 0.5<br/>gini = 0.112<br/>samples = 2485<br/>value = [2337, 148]<br/>class = No>, fillcolor="#e78946"] ;
+8 -> 9 ;
+10 [label=<gini = 0.179<br/>samples = 1317<br/>value = [1186, 131]<br/>class = No>, fillcolor="#e88f4f"] ;
+9 -> 10 ;
+11 [label=<gini = 0.029<br/>samples = 1168<br/>value = [1151, 17]<br/>class = No>, fillcolor="#e5833c"] ;
+9 -> 11 ;
+12 [label=<tenure &le; 50.5<br/>gini = 0.401<br/>samples = 2008<br/>value = [1451, 557]<br/>class = No>, fillcolor="#efb185"] ;
+8 -> 12 ;
+13 [label=<gini = 0.472<br/>samples = 1062<br/>value = [656, 406]<br/>class = No>, fillcolor="#f5cfb4"] ;
+12 -> 13 ;
+14 [label=<gini = 0.268<br/>samples = 946<br/>value = [795, 151]<br/>class = No>, fillcolor="#ea995f"] ;
+12 -> 14 ;
+}

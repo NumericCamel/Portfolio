@@ -6,8 +6,8 @@ I have used a wide range of exploratory data analysis (EDA) and machine learning
 
 ## Exploratory Data Analysis (EDA)
 
-**1. Pandas:** Used for data manipulation and analysis.
-**2. SummaryTools:** Provided descriptive statistics and data profiling.
+**1. Pandas:** Used for data manipulation and analysis. \\
+**2. SummaryTools:** Provided descriptive statistics and data profiling. \\
 **3. Missingo:** Helped identify and handle missing values.
 **4. Correlation Analysis:** Examined relationships between features.
 **5. VIF (Variance Inflation Factor) Analysis:** Assessed multicollinearity.

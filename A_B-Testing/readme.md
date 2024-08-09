@@ -41,21 +41,19 @@ So now, let us look at the results:
 
 2. **P-value (7.52e-10):** The very small p-value (0.000000000752) shows it's highly unlikely the observed association is due to chance, allowing rejection of the null hypothesis with high confidence.
 
-So what is the business verdict: 
+So what is the business recommendation? 
 
-> You can safely allow the treatment for all customers, as it is statistically safe to assume that ads do indeed positively impact the conversion rate.
-
+> It is safe to realease treatment on full group as it statistically safe and sound that seeing ads increases the conversione rate. 
 
 ### Step 4: Further Research 
 
-While the main task is achieved, the dataset contains more valuable information. We can further look at the affects of total ads seen by the person on the impact of conversion, and also the days of which the customer saw the most ads. 
+There is still valuable information in the dataset that we didn't use for the primary null hypothesis:
 
-Some further analysis we can take on is: 
-1. Conversion rates per day of week (Statistical Reasoning with Chi-2)
-2. Numbers of ads seen on conversion (Logistic)
+1. Days on which ads are seen vs. conversion rate (Chi2)
+2. Numbers of ads seen vs. conversion rate (Logistic Regression)
 
+Conclusion (1)
 
-Conclusion for (1)
-We can see that Monday and Tuesday have the highest rates of conversion at 3.33% and 2.98%. This is also statistically proven with the Chi2 test with a p value of 0.0014. So the null hypothesis can be reject at the 0.05% level. 
+We can conclude with statistical signficance (p-value below 1%) that the days on which ads are seen impact the conversion rate. From this analyisis we can conclude that Monday and Tuesday have the highest conversion rates. 
 
-Conclusion for (2)
+![plot](./assets/week_days.png)

@@ -47,13 +47,14 @@ So what is the business recommendation?
 
 ### Step 4: Further Research 
 
-There is still valuable information in the dataset that we didn't use for the primary null hypothesis:
+While the main task is achieved, the dataset contains more valuable information. We can further look at the affects of total ads seen by the person on the impact of conversion, and also the days of which the customer saw the most ads. 
 
-1. Days on which ads are seen vs. conversion rate (Chi2)
-2. Numbers of ads seen vs. conversion rate (Logistic Regression)
+Some further analysis we can take on is: 
+1. Conversion rates per day of week (Statistical Reasoning with Chi-2)
+2. Numbers of ads seen on conversion (Logistic)
 
-Conclusion (1)
 
-We can conclude with statistical signficance (p-value below 1%) that the days on which ads are seen impact the conversion rate. From this analyisis we can conclude that Monday and Tuesday have the highest conversion rates. 
+Conclusion for (1)
+We can see that Monday and Tuesday have the highest rates of conversion at 3.33% and 2.98%. This is also statistically proven with the Chi2 test with a p value of 0.0014. So the null hypothesis can be reject at the 0.05% level. 
 
-![plot](/assets/week_days.png)
+![plot](./assets/week_days.png)

@@ -67,4 +67,4 @@ Analyzing how the number of ads seen impacts the conversion rate is best done us
 
 Looking at the interpretation, the coefficient is 0.0101. This can be evalauted like this: 
 
-> For every additional ad seen, the chance of concersion increases by 1.01% (e^0.0101)
+> For every additional ad seen, the chance of conversion increases by 1.01% (e^0.0101)

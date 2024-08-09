@@ -56,4 +56,4 @@ Conclusion (1)
 
 We can conclude with statistical signficance (p-value below 1%) that the days on which ads are seen impact the conversion rate. From this analyisis we can conclude that Monday and Tuesday have the highest conversion rates. 
 
-![plot](assets/week_days.png)
+![plot](/assets/week_days.png)

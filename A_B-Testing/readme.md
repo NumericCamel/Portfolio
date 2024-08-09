@@ -54,7 +54,17 @@ Some further analysis we can take on is:
 2. Numbers of ads seen on conversion (Logistic)
 
 
-Conclusion for (1)
-We can see that Monday and Tuesday have the highest rates of conversion at 3.33% and 2.98%. This is also statistically proven with the Chi2 test with a p value of 0.0014. So the null hypothesis can be reject at the 0.05% level. 
+Conclusion(1)
+We observed that Monday and Tuesday have the highest conversion rates at 3.33% and 2.98%, respectively. This finding is statistically significant, as confirmed by the Chi-squared test, which yielded a p-value of 0.0014. Therefore, we can reject the null hypothesis at the 0.05 significance level.
 
 ![plot](./assets/week_days.png)
+
+Conclusion(2)
+Analyzing how the number of ads seen impacts the conversion rate is best done using logistic regression. With the coefficient for total ads being statistically significant due to a very low p-value, we can reject the null hypothesis that the total number of ads seen does not impact the conversion rate.
+
+![plot](./assets/logistic.png)
+
+
+Looking at the interpretation, the coefficient is 0.0101. This can be evalauted like this: 
+
+> For every additional ad seen, the chance of concersion increases by 1.01% (e^0.0101)
